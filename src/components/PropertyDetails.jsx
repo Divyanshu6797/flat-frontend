@@ -194,6 +194,10 @@ const PropertyDetails = () => {
               </a>
             </p>
             <p>
+              <strong>escription:</strong> {property.description}
+            </p>
+            
+            <p>
               <strong>Gated Security:</strong> {property.gatedSecurity}
             </p>
             <p>
