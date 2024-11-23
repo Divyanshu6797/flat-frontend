@@ -19,7 +19,7 @@ const HomePage = () => {
   return (
     <div style={styles.container}>
       <Link to="/propertylist" style={styles.button}>
-        Let's go a big one
+        Let's go
       </Link>
     </div>
   );
