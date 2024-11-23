@@ -209,6 +209,12 @@ const PropertyDetails = () => {
               <strong>Location:</strong> {property.location}
             </p>
             <p>
+              <strong>Considering:</strong> {property.considering}
+            </p>
+            <p>
+              <strong>Visited:</strong> {property.visited}
+            </p>
+            <p>
               <strong>Furnishing:</strong> {property.furnishing}
             </p>
             <p>
