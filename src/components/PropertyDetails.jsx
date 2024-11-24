@@ -193,6 +193,9 @@ const PropertyDetails = () => {
                 Link to property
               </a>
             </p>
+             <p>
+              <strong>Property name:</strong> {property.ownerName}
+            </p>
             <p>
               <strong>escription:</strong> {property.description}
             </p>
