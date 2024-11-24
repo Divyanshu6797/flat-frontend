@@ -297,7 +297,7 @@ const PropertyList = () => {
               />
             </div>
             <div style={styles.propertyField}>
-              <label style={styles.label}>Owner Name</label>
+              <label style={styles.label}>Property Name</label>
               <input
                 type="text"
                 name="ownerName"
@@ -513,8 +513,8 @@ const PropertyList = () => {
   </a>
 </h3>
 
-
-              <p>{property.address}</p>
+              <p>Property name : {property.ownerName}</p>
+              <p>Property Address : {property.address}</p>
               <p>Visited: {property.description}</p>
               <p>Rent: {property.rent}</p>
               <p>Deposit: {property.deposit}</p>
