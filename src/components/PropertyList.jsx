@@ -515,7 +515,7 @@ const PropertyList = () => {
 
               <p>Property name : {property.ownerName}</p>
               <p>Property Address : {property.address}</p>
-              <p>Visited: {property.description}</p>
+              <p>Description: {property.description}</p>
               <p>Rent: {property.rent}</p>
               <p>Deposit: {property.deposit}</p>
               <p>Furnishing: {property.furnishing}</p>
