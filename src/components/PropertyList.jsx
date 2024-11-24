@@ -522,7 +522,10 @@ const PropertyList = () => {
               <p>Location : {property.location}</p>
               <p>Area : {property.area}</p>
               {/* <p>Gated Security: {property.gatedSecurity}</p> */}
-              <p>Visited: {property.visited}</p>
+              <p>
+  <strong>Visited:  {property.visited}</strong>
+</p>
+
               <p>Considering: {property.considering}</p>
               <p>Distance from bus stop: {property.distanceBusStop}</p>
               <p>Distance From Oracle: {property.distanceOracle}</p>
