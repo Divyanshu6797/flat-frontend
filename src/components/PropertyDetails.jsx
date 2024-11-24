@@ -146,6 +146,18 @@ const PropertyDetails = () => {
                 style={styles.input}
               />
             </label>
+
+<label style={styles.label}>
+              Broker no:
+              <input
+                type="number"
+                name="brokerNo"
+                value={editedProperty.brokerNo}
+                onChange={handleInputChange}
+                style={styles.input}
+              />
+            </label>
+
             <label style={styles.label}>
   Furnishing:
   <select
